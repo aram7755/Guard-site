@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    width: 100%;
+}
+header .head {
+    background-color: #1F233E;
+    display: flex;
+    justify-content: space-around;
+}
+header .head .logo {}
+header .head nav {
+    margin-top: 50px;
+}
+header .head nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+section#slider {}
+section#slider .img {
+    background-image: url(../img/banner%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+}
+section#slider .img .info {
+    width: 600px;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+section#slider .img .info button {
+    background-color: #2561DB;
+    margin-top: 15px;
+    color: white;
+    padding: 15px 40px 15px 15px;
+    border: none;
+}
+section#slider .img .info button img {
+    position: absolute;
+}
+
+section#about_company {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+section#about_company .img {}
+section#about_company .img img {}
+section#about_company .descr {
+    margin: 50px;
+    font-size: 24px;
+}
+section#about_company .descr a {
+    text-decoration: none;
+    color: #254AA0;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #36BB25;
+}
+section#about_company .descr h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section#about_company .descr p {}
+section#about_company .descr button {
+    font-size: 24px;
+    margin-top: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute; 
+    padding: 10px;}
+section#about_company .descr button {}
+
+section#services {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+section#services a {
+    text-decoration: none;
+    border-bottom: 3px solid #36BB25;
+}
+section#services h3 {
+    margin: 20px 0;
+}
+section#services .security {
+    display: flex;
+    flex-wrap: wrap;
+}
+section#services .security .bank {
+    background-image: url(../img/security-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 400px;
+}
+section#services .security .society {
+    background-image: url(../img/s-2.jpg);
+    width: 600px;
+    height: 400px;
+}
+section#services .security .hotel {
+    background-image: url(../img/s-3.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;    
+}
+section#services .security .home {
+    background-image: url(../img/s-4.jpg);
+    width: 700px;
+    height: 400px;
+}
+section#services .security button {
+    display: block; 
+    margin: 0 auto;         
+    margin-top: 200px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+section#services button.read {
+    display: flex;
+    margin: 0 auto;
+    font-size: 16px;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+section#security {
+/*    margin: 0 auto;*/
+    margin-top: 80px;
+    text-align: center;
+}
+section#security .texts {
+    text-align: center;
+    font-size: 24px;
+}
+section#security a {
+    text-decoration: none;
+    border-bottom: 3px solid #36BB25;
+    color: #254AA0;
+}
+section#security h3 {
+    margin-top: 10px;
+}
+section#security .guards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+section#security button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+section#security button img {
+    position: absolute;
+}
+
+section#sucess {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 1px -1px 24px -13px rgb(0 0 0 / 75%);
+}
+section#sucess .story {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+section#sucess .story .img {}
+section#sucess .story .img img {
+    height: 500px;
+}
+section#sucess .story .descr {
+    margin-top: 50px;
+    padding: 20px;
+}
+section#sucess .story .descr p.our {
+    margin-bottom: 10px;
+    font-size: 24px;  
+    color: #254A93;
+}
+section#sucess .story .descr h3 {
+    font-size: 24px;    
+    margin-bottom: 10px;
+}
+section#sucess .story .descr button {
+    font-size: 16px;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+section#sucess .story .descr button img {
+    position: absolute;
+}
+
+section#contact {
+    width: 100%;
+    margin-top: 70px;
+}
+section#contact .location {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+section#contact .location .map {}
+section#contact .location .form {
+    background-image: url(../img/guards.jpg);
+    width: 1000px;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+section#contact .location .form form {
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    margin: 150px 70px;
+}
+section#contact .location .form form input {
+    margin: 10px;
+    padding: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #0c9;
+ 
+}
+section#contact .location .form form button {
+    margin: 10px;
+    padding: 10px;     
+    background: #254A93;
+    color: white;
+    border: none;
+} 
+
+footer {
+    margin-top: 70px;
+    height: 250px;
+    background-color: black;
+}
+footer .info {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+footer .info .descr p {
+    width: 250px;
+}
+footer .info .address {}
+footer .info .address h3 {}
+footer .info .address p.address {}
+footer .info .address p.tel {}
+footer .info .address p.email {}
+footer .info .newsletter {}
+footer .info .newsletter h3 {}
+footer .info .newsletter form {}
+footer .info .newsletter form p input {
+    padding: 10px;
+}
+footer .info .newsletter form button {
+    padding: 7px;
+    margin-top: 5px;
+    background: #254A93;
+    border: none;
+}
+footer .info .links {
+    margin-top: 15px;
+}
+footer .info i {
+    color: #254A93; 
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    section#slider .img {
+        height: 500px;
+    }
+    section#about_company .descr {
+        font-size: 16px;
+    }
+    section#contact .location {
+        display: block;
+    }
+    footer {
+        height: 500px;
+    }
+    footer .info {
+        display: block;
+        text-align: center;
+    }
+    footer .info .address h3 {
+        margin-top: 15px;
+    }
+    footer .info .newsletter h3 {
+        margin-top: 15px;
+    }
+    footer .info .descr p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header .head nav {
+        display: none;
+    }
+    section#slider .img .info {
+        width: 300px;   
+    }
+    section#slider .img {
+        height: 600px;
+        background-position: center;
+    }
+    section#about_company {
+        display: block;
+    }
+    section#about_company .descr {
+        font-size: 16px;
+    }
+    section#security .guards {
+        display: block;
+    }
+    section#sucess .story {
+        display: block;
+    }
+    section#contact .location {
+        display: block;
+    }
+    footer {
+        height: 450px;
+    }
+    footer .info {
+        display: block;
+    }
+    footer .info .address h3 {
+        margin-top: 15px;
+    }
+    footer .info .newsletter h3 {
+        margin-top: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    section#slider .img {
+        height:  300px;
+    }
+    section#slider .img .info {
+        font-size: 16px;
+        bottom: 40px;
+        left: 10px;
+    }
+    section#about_company .descr {
+        font-size: 12px;
+    }
+    section#about_company .descr h3 {
+        font-size: 18px;
+    }
+    section#contact .location .form form {
+        padding: 20px;
+        width: 250px;
+        margin: 100px 40px;
+    }
+    footer .info .address h3 {
+        margin-top: 30px;
+    }
+    footer .info .newsletter h3 {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1920px) {
+    section#services .security {
+        justify-content: center;
+    }
+    section#services .security .bank, section#services .security .home {
+        width: 600px;
+    }  
+}
+
+
+
+
